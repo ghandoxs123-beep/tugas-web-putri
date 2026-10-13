@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putri Lidya - Halaman Profil</title>
+    <!-- Tailwind CSS untuk styling modern -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-[#0b132b] text-gray-100 font-sans leading-relaxed min-h-screen flex flex-col justify-between">
+
+    <!-- Container Utama -->
+    <div class="max-w-4xl mx-auto px-6 py-12 w-full space-y-16">
+
+        <!-- Bagian Atas: Teks & Foto Lokal -->
+        <header class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-6">
+            <div class="space-y-4">
+                <span class="inline-block bg-[#1c2541] text-blue-400 text-xs font-semibold px-3 py-1 rounded-full border border-blue-900">
+                    HALAMAN PROFIL MAHASISWA
+                </span>
+                <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-white">
+                    Selamat Datang di Halaman Saya
+                </h1>
+                <p class="text-gray-300 text-base">
+                    Halo, nama saya <strong>Putri Lidya</strong>. Saya sedang belajar Pemrograman Komputer Lanjutan Web dan HTML.
+                </p>
+                <div class="pt-2">
+                    <a href="#tentang" class="inline-block bg-[#1c2541] hover:bg-[#3a506b] text-blue-300 border border-blue-800 font-medium px-5 py-2.5 rounded-lg shadow transition">
+                        Kenali Saya &darr;
+                    </a>
+                </div>
+            </div>
+            
+            <!-- FOTO LOKAL -->
+            <div class="flex justify-center">
+                <!-- PASTIKAN NAMA FILE FOTO DI BAWAH SAMA PERSIS DENGAN NAMA FOTO DI FOLDER -->
+                <img src="foto.jpg" alt="Foto Profil Putri Lidya" class="w-64 h-80 object-cover rounded-2xl shadow-2xl border-4 border-[#1c2541]">
+            </div>
+        </header>
+
+        <!-- Bagian Bawah: Tentang Saya & Informasi Kartu -->
+        <section id="tentang" class="bg-[#1c2541] p-8 rounded-2xl shadow-xl border border-blue-900/50 space-y-6">
+            <h2 class="text-2xl font-bold text-white border-b border-gray-700 pb-3">Tentang Saya</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-[#0b132b] p-4 rounded-xl border border-gray-800">
+                    <p class="text-xs text-gray-400">Nama</p>
+                    <p class="font-semibold text-white mt-1">Putri Lidya</p>
+                </div>
+                <div class="bg-[#0b132b] p-4 rounded-xl border border-gray-800">
+                    <p class="text-xs text-gray-400">Status</p>
+                    <p class="font-semibold text-white mt-1">Mahasiswa</p>
+                </div>
+                <div class="bg-[#0b132b] p-4 rounded-xl border border-gray-800">
+                    <p class="text-xs text-gray-400">Hobi</p>
+                    <p class="font-semibold text-white mt-1">Belajar teknologi</p>
+                </div>
+            </div>
+
+            <div class="pt-2 text-sm text-gray-300">
+                Kunjungi website untuk belajar HTML di <a href="https://www.w3schools.com/html/" target="_blank" class="text-blue-400 underline hover:text-blue-300">W3Schools</a>.
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b132b] border-t border-gray-800 py-6 text-center text-xs text-gray-400">
+        <p>&copy; 2026 Putri Lidya - Website pembelajaran HTML</p>
+    </footer>
+
+</body>
+</html>
